@@ -1,0 +1,26 @@
+# Datasets
+*.xml
+*.csv
+*.xsd
+schema.txt
+start
+
+# Model Weights & Embeddings
+*.pt
+*.pth
+glove.6B.*.txt
+
+# Results (keep plots, ignore JSON/weights)
+results/**/*.json
+results/**/*.pt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
